@@ -1,0 +1,37 @@
+env = 'production'
+[app]
+deployLimit = 4
+shutdownTimeout = 10
+repositoryPath = ''
+
+[cookie]
+name = 'goploy_token'
+expire = 86400
+
+[jwt]
+key = '2022-01-26 08:28:31.500234 +0000 UTC m=+0.003936001'
+
+[db]
+type = 'mysql'
+user = 'root'
+password = '$ergoudb890.'
+host = '39.106.4.132'
+port = '3306'
+database = 'goploy'
+
+[log]
+path = 'stdout'
+split = false
+
+[web]
+port = '80'
+
+[ldap]
+enabled = false
+url = ''
+bindDN = ''
+password = ''
+baseDN = ''
+uid = ''
+userFilter = ''
+
