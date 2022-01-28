@@ -4,6 +4,6 @@ WORKDIR	/app
 
 COPY . .
 
-EXPOSE  8090
+EXPOSE  8081
 
 CMD ["/app/main"]
